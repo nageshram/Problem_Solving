@@ -9,7 +9,7 @@ int main()
     while(num>0)
     {
         rem=num%10;
-        rev+=rev*10+rem;
+        rev=rev*10+rem;
         num=num/10;
     }
     if(rev == originalnum)
